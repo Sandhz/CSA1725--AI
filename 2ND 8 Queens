@@ -39,3 +39,13 @@ def eight_queens():
         print("No solution found.")
 
 eight_queens()
+
+OUTPUT
+Q - - - - - - -
+- - - - Q - - -
+- - - - - - - Q
+- - - - - Q - -
+- - Q - - - - -
+- - - - - - Q -
+- Q - - - - - -
+- - - Q - - - -
