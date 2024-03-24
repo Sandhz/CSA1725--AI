@@ -14,3 +14,6 @@ if result:
     print(f"Solution found: Jug A = {result[0]}, Jug B = {result[1]}")
 else:
     print("Solution not possible.")
+
+OUTPUT
+Solution found: Jug A = 0, Jug B = 2
