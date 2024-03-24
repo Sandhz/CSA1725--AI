@@ -53,3 +53,15 @@ def solve_missionaries_cannibals():
 
 if __name__ == "__main__":
     solve_missionaries_cannibals()
+
+OUTPUT
+Missionaries: 3, Cannibals: 3, Boat Side: Right
+Missionaries: 3, Cannibals: 1, Boat Side: Left
+Missionaries: 3, Cannibals: 2, Boat Side: Right
+Missionaries: 3, Cannibals: 0, Boat Side: Left
+Missionaries: 3, Cannibals: 1, Boat Side: Right
+Missionaries: 2, Cannibals: 0, Boat Side: Left
+Missionaries: 2, Cannibals: 1, Boat Side: Right
+Missionaries: 1, Cannibals: 0, Boat Side: Left
+Missionaries: 1, Cannibals: 1, Boat Side: Right
+Missionaries: 0, Cannibals: 0, Boat Side: Left
