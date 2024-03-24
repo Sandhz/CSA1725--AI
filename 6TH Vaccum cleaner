@@ -1,0 +1,36 @@
+class VacuumCleaner:
+    def __init__(self, environment):
+        self.environment = environment
+        self.position = 0
+
+    def move(self):
+        if self.position < len(self.environment):
+            print("Moving to position", self.position)
+            self.clean()
+            self.position += 1
+
+    def clean(self):
+        if self.position < len(self.environment):
+            if self.environment[self.position] == 'dirty':
+                print("Cleaning dirty square at position", self.position)
+                self.environment[self.position] = 'clean'
+            else:
+                print("Square at position", self.position, "is already clean")
+
+
+def main():
+    environment = ['dirty', 'clean', 'dirty', 'clean', 'clean']
+    cleaner = VacuumCleaner(environment)
+
+    print("Initial environment:", environment)
+
+    for _ in range(len(environment)):
+        cleaner.move()
+
+    print("Final environment:", environment)
+
+
+if __name__ == "__main__":
+    main()
+
+
