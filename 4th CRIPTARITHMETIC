@@ -27,3 +27,16 @@ if solution:
 else:
     print("No solution found for the given cryptarithmetic problem.")
 
+OUTPUT
+First + First = THREE
+Solution found:
+E = 2
+F = 3
+H = 0
+R = 9
+T = 7
+i = 5
+r = 4
+s = 6
+t = 1
+
