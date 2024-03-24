@@ -34,3 +34,16 @@ if __name__ == "__main__":
     main()
 
 
+OUTPUT
+Initial environment: ['dirty', 'clean', 'dirty', 'clean', 'clean']
+Moving to position 0
+Cleaning dirty square at position 0
+Moving to position 1
+Square at position 1 is already clean
+Moving to position 2
+Cleaning dirty square at position 2
+Moving to position 3
+Square at position 3 is already clean
+Moving to position 4
+Square at position 4 is already clean
+Final environment: ['clean', 'clean', 'clean', 'clean', 'clean']
